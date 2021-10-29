@@ -22,5 +22,19 @@ Realtime drawing can be achieved by the people using same link at same time.
 - JavaScript (Express.js for backend)
 - socket.io
 
+### To run locally:
+Replace `https://clone-openboard.herokuapp.com/` with `http://localhost:3000/` in `index.html`file. <br>
+Open the folder in VS code. Open terminal and write these commands: <br>
+```
+npm init
+```
+Press Enter. Then,
+```
+npm install socket.io
+npm install --save-dev nodemon
+node app.js
+```
+Now open the browser and type `localhost:3000`.
+
 ### Reference: 
 [click here](https://www.youtube.com/c/Pepcoding)
